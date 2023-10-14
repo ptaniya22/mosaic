@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .active {
+    width: 300px;
+    transition: all 500ms;
+}
+
+.item {
+    height: 50px;
+    background: black;
+    border: 1px solid red;
+    margin-bottom: 10px;
+} */
+
+.wraper {
+    width: 900px;
+    height: 100%;
+    margin: 50px auto;
+    display: grid;
+    /* grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr); */
+
+    /* justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.item {
+
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(58, 5, 253);
+    margin-bottom: 10px;
+}
+
+.active {
+    background: rgb(220, 220, 220);
+    border: 3px solid red;
+    transition: all 500ms;
+}
+
+.palette {
+    width: 120px;
+    height: 100%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+
+}
+
+.color {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+
+}
+
+.var1 {
+    background: red
+}
+
+.var2 {
+    background: green
+}
+
+.var3 {
+    background: yellow
+}
+
+.var4 {
+    background: blue
+}
+
+.var5 {
+    background: white
+}
+
+.var6 {
+    background: black
+}
+
+.var7 {
+    background: orange
+}
+
+.var8 {
+    background: teal
+}
+
+.activecolor {
+    /* background: rgb(7, 248, 23);
+    border-radius: 0%; */
+    border: 5px solid red;
+    transition: all 500ms;
+}
